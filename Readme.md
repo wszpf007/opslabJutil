@@ -6,7 +6,7 @@
 
 ---
 #开发环境
-    Win7x64 && ubuntu14
+    Win7x64 && ubuntu14 && MacOS
     JDK1.7
     IDEA14
 
@@ -42,6 +42,8 @@
     <version>1.0.6</version>
 </dependency>
 
+<!--后续版本-->
+由于上传maven中心比较慢，相当浪费时间，因此后续版本不在上传的maven中心，使用下载后直接build即可！
 ```
 
 ## config
@@ -58,7 +60,7 @@ TIME_FORMAT=HH:mm:ss
 mail.smtp.host=smtp.qq.com
 mail.smtp.port=25
 mail.smtp.auth=true
-mail.sender.username=909070781@qq.com
+mail.sender.username=438558488@qq.com
 mail.sender.password=****
 
 #FTP信息配置
