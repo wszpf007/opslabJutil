@@ -526,3 +526,17 @@ FTPTest.passiveMode=true
     static void	unCompress(File source, String path)
     文档解压
     static void	zipFile(File inFile, ZipOutputStream zos, String dir)
+
+#CollectionHelper集合相关的工具类
+##常量方法
+    static void handler( Collection<T> collection, ObjectHandler<T> handler)
+    处理集合中的元素
+    static <T, E> void process( Collection<T> collection,  Collection<E> result, ObjectProcess<T, E> process)
+    处理集合中的元素
+    
+#FileHelper
+##常量方法
+    static void handlerWithLine(File file, String encoding, ObjectHandler<String> handler)
+    逐行处理文件内容
+    static <E> void  processWithLine(File file,String encoding, Collection<E> result, ObjectProcess<String,E> process)
+    逐行处理文件内容
